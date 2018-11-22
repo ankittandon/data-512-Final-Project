@@ -1,15 +1,15 @@
-#Final Project Plan
+# Final Project Plan
 Ankit Tandon
 
-#Introduction
+## Introduction
 
-#Data
+## Data
 
-#Research Questions
+## Research Questions
 
-#Tools
+## Tools
 
-#Sources
+## Sources
 
-#Other Resources
+## Other Resources
 
