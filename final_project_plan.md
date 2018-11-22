@@ -17,7 +17,7 @@ While the effectiveness of the seasonal influenza vaccination varies from year t
 ## Tools
 
 ## Sources
-<a name="myfootnote1">1</a>: Footnote content goes here.
+<a name="myfootnote1">1</a>: https://www.cdc.gov/flu/protect/keyfacts.htm
 
 ## Other Resources
 
