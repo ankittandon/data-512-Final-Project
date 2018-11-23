@@ -23,6 +23,30 @@ The questions asked in the survey were as follows:
 
 - If no, What was the main reason for not getting your flu shot this season? 
 
+For each question there are a different number of respondents with no way of correlating results across a particular respondant. There is major demographic information associated with each respondant. The demographic information is bucketed in the following ways:
+- Age:
+	- 18 to 34 years old
+	- 35 to 54 years old
+	- 55+ years old
+- Education:
+	- Less than High School
+	- Graduated High School
+	- Some Post Secondary School
+	- Graduated Post Secondary School
+- Gender:
+	- Male
+	- Female
+- Income:
+	- Less than $50k
+	- $50k to <$100k
+	- $100k+
+- Region:
+	- Cape Breton
+	- Halifax
+	- Rest of Mainland
+
+There are a variable number of respondents across questions where the max number for a question is 800.
+
 ## Research Questions
 
 
