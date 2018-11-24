@@ -73,12 +73,12 @@ The schema of the dataset is as follows:
 I plan to use Python, R, Pandas, ggplot, and Microsoft Excel to conduct the analysis for this project. 
 
 ## Sources
-<a name="myfootnote1">1</a>: https://www.cdc.gov/flu/protect/keyfacts.htm
-<a name="myfootnote2">2</a>: http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf
-<a name="myfootnote3">3</a>: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&rep=rep1&type=pdf
-<a name="myfootnote4">4</a>: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf
-<a name="myfootnote5">5</a>: https://www.cdc.gov/flu/protect/vaccine/general.htm
-<a name="myfootnote6">6</a>: https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr 
-<a name="myfootnote7">7</a>: https://www.rand.org/content/dam/rand/pubs/research_briefs/RB9700/RB9744/RAND_RB9744.pdf
-<a name="myfootnote8">8</a>: http://www.pnas.org/content/108/26/10415
-<a name="myfootnote9">9</a>: https://journals.lww.com/lww-medicalcare/Fulltext/2016/06000/Vaccination_Rates_are_Associated_With_Functional.5.aspx
+- <a name="myfootnote1">1</a>: https://www.cdc.gov/flu/protect/keyfacts.htm
+- <a name="myfootnote2">2</a>: http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf
+- <a name="myfootnote3">3</a>: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&rep=rep1&type=pdf
+- <a name="myfootnote4">4</a>: https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf
+- <a name="myfootnote5">5</a>: https://www.cdc.gov/flu/protect/vaccine/general.htm
+- <a name="myfootnote6">6</a>: https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr 
+- <a name="myfootnote7">7</a>: https://www.rand.org/content/dam/rand/pubs/research_briefs/RB9700/RB9744/RAND_RB9744.pdf
+- <a name="myfootnote8">8</a>: http://www.pnas.org/content/108/26/10415
+- <a name="myfootnote9">9</a>: https://journals.lww.com/lww-medicalcare/Fulltext/2016/06000/Vaccination_Rates_are_Associated_With_Functional.5.aspx
