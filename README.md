@@ -68,7 +68,7 @@ WEIGHTED SAMPLE SIZE (#)
 UNWEIGHTED SAMPLE SIZE (#)
 
 ## About this github repository
-Atlantic_Quarterly_Autumn_2017_-_DHW__flu_shots.csv is a data file that contains the survey results data
-To Vaccinate Or Not To Vaccinate.pdf is a pdf of the final project presentation
-final_report.md is the markdown file generated from the R Markdown code
+Atlantic_Quarterly_Autumn_2017_-_DHW__flu_shots.csv is a data file that contains the survey results data\n
+To Vaccinate Or Not To Vaccinate.pdf is a pdf of the final project presentation\n
+final_report.md is the markdown file generated from the R Markdown code\n
 final_report.html is the knit version of the RMD file
