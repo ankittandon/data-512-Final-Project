@@ -225,14 +225,14 @@ John Beshear suggests a few options to increase the vaccination rates by making 
 This research should inform your understanding of human centered data science as it provides a scientific approach to testing a hypothesis with data but also carefully considering the data sources for possible biases. Recognizing the limitations of the overall analysis as well as the individual data sets is crucial to human centered data science. Finally, this notebook serves as a template to structure a data science project to be replicated by others.
 
 # References
-- 1 Why the CDC Estimates Burden https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm \n
+- 1 Why the CDC Estimates Burden https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm 
 - 2 Global Vaccine Market Futures and Trends http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf
 - 3 The annual impact of seasonal influenza in the US: Measuring disease burden and costs, Molinari et. al. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&rep=rep1&type=pdf
-- 4 Preliminary Estimates of 2017–18 Seasonal Influenza Vaccine Effectiveness against Laboratory-Confirmed Influenza from the US Flu VE and HAIVEN Networks https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf\n
-- 5 Flu Vaccine Safety Information https://www.cdc.gov/flu/protect/vaccine/general.htm\n
-- 6 Health at a glance - Flu Vaccination Rates in Canada https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm \n
-- 7 "Vaccination Rates are Associated With Functional Proximity But Not Base Proximity of Vaccination Clinics” By Beshears, John PhD; Choi, James J. PhD et. al. Medical Care: June 2016 - Volume 54 - Issue 6 - p 578–583 https://journals.lww.com/lww-medicalcare/toc/2016/06000\n
-- 8 “Using implementation intentions prompts to enhance influenza vaccination rates” By Katherine L. Milkman, John Beshears, et. al. PNAS June 28, 2011 108 (26) 10415 10420; https://doi.org/10.1073/pnas.1103170108 \n
-- 9 R package to Retrieve U.S. Flu Season Data from the CDC FluView Portal (WHO & ILINet) https://github.com/hrbrmstr/cdcfluview \n
-- 10 Atlantic Quarterly Autumn 2017 - DHW (flu shots) Survey results https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr \n
-- 11 https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf\n
+- 4 Preliminary Estimates of 2017–18 Seasonal Influenza Vaccine Effectiveness against Laboratory-Confirmed Influenza from the US Flu VE and HAIVEN Networks https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf
+- 5 Flu Vaccine Safety Information https://www.cdc.gov/flu/protect/vaccine/general.htm
+- 6 Health at a glance - Flu Vaccination Rates in Canada https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm 
+- 7 "Vaccination Rates are Associated With Functional Proximity But Not Base Proximity of Vaccination Clinics” By Beshears, John PhD; Choi, James J. PhD et. al. Medical Care: June 2016 - Volume 54 - Issue 6 - p 578–583 https://journals.lww.com/lww-medicalcare/toc/2016/06000
+- 8 “Using implementation intentions prompts to enhance influenza vaccination rates” By Katherine L. Milkman, John Beshears, et. al. PNAS June 28, 2011 108 (26) 10415 10420; https://doi.org/10.1073/pnas.1103170108 
+- 9 R package to Retrieve U.S. Flu Season Data from the CDC FluView Portal (WHO & ILINet) https://github.com/hrbrmstr/cdcfluview 
+- 10 Atlantic Quarterly Autumn 2017 - DHW (flu shots) Survey results https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr 
+- 11 https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf
