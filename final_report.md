@@ -1,11 +1,3 @@
----
-title: "Final Project Notebook - Ankit Tandon"
-output:
-  html_document:
-    keep_md: true
-  html_notebook: default
-  pdf_document: default
----
 This is a R markdown notebook for my final project for the class HCDE 511 taught at UW by Jonathan Morgan in the autumn quarter of 2018. More information about this class can be found here: https://wiki.communitydata.cc/Human_Centered_Data_Science_(Fall_2018) 
 
 # Introduction
@@ -52,7 +44,7 @@ level_three <- distribution[which(distribution$age_label=='25-64 yr'),]
 level_four <- distribution[which(distribution$age_label=='65+ yr'),]
 ```
 
-Now that I have the number of illnesses reported according to the 4 buckets, I need to normalize the values based on the 2010 census data since the bucket sizes and unequal. To do this, i'll use the 2010 census data published on census.gov -  https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf
+Now that I have the number of illnesses reported according to the 4 buckets, I need to normalize the values based on the 2010 census data since the bucket sizes and unequal. To do this, i'll use the 2010 census data published on census.gov[11](#myfootnote11)
 The numbers will be hardcoded into an agecount list and the proportion list in the dataframe will be the number of illnesses divided by the population for a given bucket.
 
 ```r
@@ -231,14 +223,16 @@ People get their vaccination mostly from the pharmacy or doctor's office but a l
 John Beshear suggests a few options to increase the vaccination rates by making flu shot drives more effective in the workplace. Another way to increase vaccination rates would be to introduce vaccinations to parts of the demographic that are traditionally underrepresented in terms of flu vaccination.
 
 This research should inform your understanding of human centered data science as it provides a scientific approach to testing a hypothesis with data but also carefully considering the data sources for possible biases. Recognizing the limitations of the overall analysis as well as the individual data sets is crucial to human centered data science. Finally, this notebook serves as a template to structure a data science project to be replicated by others.
+
 # References
-1 https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm 
-2 
-3
-4
-5
-6 https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm 
-7
-8
-9
-10
+- 1 Why the CDC Estimates Burden https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm \n
+- 2 Global Vaccine Market Futures and Trends http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf
+- 3 The annual impact of seasonal influenza in the US: Measuring disease burden and costs, Molinari et. al. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&rep=rep1&type=pdf
+- 4 Preliminary Estimates of 2017–18 Seasonal Influenza Vaccine Effectiveness against Laboratory-Confirmed Influenza from the US Flu VE and HAIVEN Networks https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf\n
+- 5 Flu Vaccine Safety Information https://www.cdc.gov/flu/protect/vaccine/general.htm\n
+- 6 Health at a glance - Flu Vaccination Rates in Canada https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm \n
+- 7 "Vaccination Rates are Associated With Functional Proximity But Not Base Proximity of Vaccination Clinics” By Beshears, John PhD; Choi, James J. PhD et. al. Medical Care: June 2016 - Volume 54 - Issue 6 - p 578–583 https://journals.lww.com/lww-medicalcare/toc/2016/06000\n
+- 8 “Using implementation intentions prompts to enhance influenza vaccination rates” By Katherine L. Milkman, John Beshears, et. al. PNAS June 28, 2011 108 (26) 10415 10420; https://doi.org/10.1073/pnas.1103170108 \n
+- 9 R package to Retrieve U.S. Flu Season Data from the CDC FluView Portal (WHO & ILINet) https://github.com/hrbrmstr/cdcfluview \n
+- 10 Atlantic Quarterly Autumn 2017 - DHW (flu shots) Survey results https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr \n
+- 11 https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf\n
