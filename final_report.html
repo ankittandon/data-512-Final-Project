@@ -154,7 +154,7 @@ level_one &lt;- distribution[ which(distribution$age_label=='0-4 yr'),]
 level_two &lt;- distribution[ which(distribution$age_label=='5-24 yr'),]
 level_three &lt;- distribution[which(distribution$age_label=='25-64 yr'),]
 level_four &lt;- distribution[which(distribution$age_label=='65+ yr'),]</code></pre>
-<p>Now that I have the number of illnesses reported according to the 4 buckets, I need to normalize the values based on the 2010 census data since the bucket sizes and unequal. To do this, i’ll use the 2010 census data published on census.gov - <a href="https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf" class="uri">https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf</a> The numbers will be hardcoded into an agecount list and the proportion list in the dataframe will be the number of illnesses divided by the population for a given bucket.</p>
+<p>Now that I have the number of illnesses reported according to the 4 buckets, I need to normalize the values based on the 2010 census data since the bucket sizes and unequal. To do this, i’ll use the 2010 census data published on census.gov<a href="#myfootnote11">11</a> The numbers will be hardcoded into an agecount list and the proportion list in the dataframe will be the number of illnesses divided by the population for a given bucket.</p>
 <pre class="r"><code>agecount &lt;- c(19175798,80261468,124574328,34991753)
 df &lt;- data.frame(age=c(&quot;0-4 yr&quot;,&quot;5-24 yr&quot;,&quot;25-64 yr&quot;,&quot;65+ yr&quot;), flucount = c(sum(level_one$count),sum(level_two$count),sum(level_three$count),sum(level_four$count)),agecount = agecount,proportion = c(sum(level_one$count)/agecount[1],sum(level_two$count)/agecount[2],sum(level_three$count)/agecount[3],sum(level_four$count)/agecount[4]))</code></pre>
 <p>Let’s visualize the flu count by age group using GGPlot histogram plots.</p>
@@ -273,7 +273,23 @@ unique(responses$RESPONSE)</code></pre>
 <div id="conclusion" class="section level1">
 <h1>Conclusion</h1>
 <p>To restate my research questions with their respones - q1: Who is most likely to get the flu? The most number of cases of influenza come from the 25 to 64 years age group but the highest proportion of people who are likely to contract the flu come from the 0 to 4 year age group. q2: What are reasons that people get or don’t get the vaccine? The main reason that people don’t get the flu is that they don’t believe in the effectiveness of the flu, which the CDC reports at 40-60% in recent years as stated earlier. q3: Where do people get their vaccination? People get their vaccination mostly from the pharmacy or doctor’s office but a large proportion also get their vaccination from their workplace. 4. What can be done to drive higher vaccination rates? John Beshear suggests a few options to increase the vaccination rates by making flu shot drives more effective in the workplace. Another way to increase vaccination rates would be to introduce vaccinations to parts of the demographic that are traditionally underrepresented in terms of flu vaccination.</p>
-<p>This research should inform your understanding of human centered data science as it provides a scientific approach to testing a hypothesis with data but also carefully considering the data sources for possible biases. Recognizing the limitations of the overall analysis as well as the individual data sets is crucial to human centered data science. Finally, this notebook serves as a template to structure a data science project to be replicated by others. # References 1 <a href="https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm" class="uri">https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm</a> 2 3 4 5 6 <a href="https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm" class="uri">https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm</a> 7 8 9 10</p>
+<p>This research should inform your understanding of human centered data science as it provides a scientific approach to testing a hypothesis with data but also carefully considering the data sources for possible biases. Recognizing the limitations of the overall analysis as well as the individual data sets is crucial to human centered data science. Finally, this notebook serves as a template to structure a data science project to be replicated by others.</p>
+</div>
+<div id="references" class="section level1">
+<h1>References</h1>
+<ul>
+<li>1 <a href="https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm" class="uri">https://www.cdc.gov/flu/about/burden/why-cdc-estimates.htm</a> </li>
+<li>2 <a href="http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf" class="uri">http://www.who.int/influenza_vaccines_plan/resources/session_10_kaddar.pdf</a></li>
+<li>3 <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&amp;rep=rep1&amp;type=pdf" class="uri">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.6523&amp;rep=rep1&amp;type=pdf</a></li>
+<li>4 <a href="https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf\n" class="uri">https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2018-06/flu-02-Flannery-508.pdf\n</a></li>
+<li>5 <a href="https://www.cdc.gov/flu/protect/vaccine/general.htm\n" class="uri">https://www.cdc.gov/flu/protect/vaccine/general.htm\n</a></li>
+<li>6 <a href="https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm" class="uri">https://www150.statcan.gc.ca/n1/pub/82-624-x/2015001/article/14218-eng.htm</a> </li>
+<li>7 “Vaccination Rates are Associated With Functional Proximity But Not Base Proximity of Vaccination Clinics” By Beshears, John PhD; Choi, James J. PhD et. al. Medical Care: June 2016 - Volume 54 - Issue 6 - p 578-583 <a href="https://journals.lww.com/lww-medicalcare/toc/2016/06000\n" class="uri">https://journals.lww.com/lww-medicalcare/toc/2016/06000\n</a></li>
+<li>8 “Using implementation intentions prompts to enhance influenza vaccination rates” By Katherine L. Milkman, John Beshears, et. al. PNAS June 28, 2011 108 (26) 10415 10420; <a href="https://doi.org/10.1073/pnas.1103170108" class="uri">https://doi.org/10.1073/pnas.1103170108</a> </li>
+<li>9 <a href="https://github.com/hrbrmstr/cdcfluview" class="uri">https://github.com/hrbrmstr/cdcfluview</a> </li>
+<li>10 <a href="https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr" class="uri">https://data.novascotia.ca/Public-Opinion-Research/Atlantic-Quarterly-Autumn-2017-DHW-flu-shots-/dcj6-kjxr</a> </li>
+<li>11 <a href="https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf\n" class="uri">https://www.census.gov/prod/cen2010/briefs/c2010br-03.pdf\n</a></li>
+</ul>
 </div>
 
 
